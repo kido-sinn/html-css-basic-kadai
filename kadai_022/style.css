@@ -22,8 +22,7 @@ h1::first-line {
     justify-content: space-around;
     
 }
-.contents {
-    font-weight: bold;  
+.contents { 
     border: solid 3px rgb(238,204,204);
     flex-basis: 25%;
     margin: 20px 0px 20px 0px;
@@ -31,7 +30,7 @@ h1::first-line {
     text-align: center;
 }
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     border-bottom: dotted 3px rgb(236,122,122);
     } 
 h2::before {
