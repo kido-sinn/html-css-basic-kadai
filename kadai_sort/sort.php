@@ -9,13 +9,10 @@
 <body>
     <p>
         <?php
-        $nums = [15, 4, 18, 23, 10];
+         $nums = [15, 4, 18, 23, 10];
         $order = [true, false];
         
-
-        
         function sort_2way($array, $order) {
-          $nums = [15, 4, 18, 23, 10]; 
 
         if ($order) {
           echo "昇順にソートします。<br>";
@@ -34,7 +31,6 @@
         }
         
     }
-    
         sort_2way($nums, true);
         sort_2way($nums, false);
         
